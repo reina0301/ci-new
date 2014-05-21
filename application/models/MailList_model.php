@@ -1,5 +1,5 @@
 <?php
-//MailList_model.php
+//maillist_model.php
 
 class MailList_model extends CI_Model
 {
@@ -14,6 +14,4 @@ class MailList_model extends CI_Model
 		return $query->result_array();
 	}
 }
-
-
 ?>
