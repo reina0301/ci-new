@@ -8,8 +8,9 @@ if($query->num_rows() > 0):
 	<?=$row->userid?>
 	<?=$row->first_name?>
 	<?=$row->last_name?>
-
-
+<?php
+	echo anchor('mailing_list/view/' . $row->userid,"View User");
+?>
 <?php endforeach; ?>
 
 <?php endif; ?>
